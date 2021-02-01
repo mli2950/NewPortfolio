@@ -8,7 +8,7 @@ html {
   
   .bg {
     animation:slide 30s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #66FCF1 50%, #45A293 50%);
+    background-image: linear-gradient(-60deg, #4be6f1 50%, #1F2833 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
