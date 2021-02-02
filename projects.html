@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michael Li</title>
     <link
       rel="stylesheet"
@@ -12,60 +12,176 @@
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <linkSS/custom-
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-</head>
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    rel="stylesheet" />
+  </head>
 
-<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="#">Michael Li</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./index.html"
+          >Home <span class="sr-only">(current)</span></a
+        >
         <a class="nav-item nav-link active" href="./projects.html">Projects</a>
         <a class="nav-item nav-link" href="./contact.html">Contact</a>
         <a class="nav-item nav-link" href="./resume.html">Resume</a>
       </div>
     </div>
   </nav>
-<body>
+  <body>
     <div class="bg"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
-  <div class="content">
-    <h1>My name is Michael Li, I am a Full-Stack developer.</h1>
-  </div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <main class="container" id="prjCarousel">
+      <div class="row">
+        <div class="col-lg-12">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+            data-pause="hover"
+            data-interval="0"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a
+                  href="https://njleoni.github.io/project_random_quotes/"
+                  target="_blank"
+                  ><img
+                    src="Assets/Images/random-tech-quote-generator.png"
+                    class="d-block w-100 img-fluid"
+                    alt="Tech Calendar"
+                /></a>
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark mb-4"
+                  id="Caption"
+                >
+                  <h5>Random Tech Quote & Image Calendar</h5>
+                  <p>
+                    This is my first team project, a calendar that displays
+                    random tech based quotes and images using HTML, CSS, JS and
+                    API calls.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a
+                  href="https://mli2950.github.io/Homework6-Weather-API/"
+                  target="_blank"
+                >
+                  <img
+                    src="Assets/Images/weather-dashboard.png"
+                    class="d-block w-100"
+                    alt="Weather Dashboard"
+                  />
+                </a>
 
-      <!-- Footer -->
-      <nav class="navbar fixed-bottom footer">
-        <div class="container">
-          <div class="row footer-icon-wrapper">
-            <div class="col-lg-12">
-              <a href="https://github.com/mli2950" target="_blank"
-                ><img
-                  src="./Assets/Images/github.png"
-                  class="footer-icon"
-                  alt="Github"
-                />
-              </a>
-  
-              <a
-                href="https://www.linkedin.com/in/michael-li-6a156799/"
-                target="_blank"
-              >
-                <img
-                  src="Assets/Images/linkedin.png"
-                  alt="LinkedIn"
-                  class="footer-icon"
-                />
-              </a>
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark"
+                  id="Caption"
+                >
+                  <h5>Weather Dashboard</h5>
+                  <p>
+                    A website I created that displays current and 5 day
+                    forecasts using HTML, CSS, Javascript and using API's to
+                    retrieve data.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <a
+                  href="https://mli2950.github.io/Homework-5---Day-Scheduler/"
+                  target="_blank"
+                >
+                  <img
+                    src="Assets/Images/work-day-scheduler.png"
+                    class="d-block w-100"
+                    alt="Work Day Scheduler"
+                  />
+                </a>
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark"
+                  id="WorkDayScheduler"
+                >
+                  <h5>Day Scheduler</h5>
+                  <p>
+                    A website I created that shows times throughout the work
+                    day, and color codes them appropriately based on whether
+                    that time is in the future, current, or past. Time slots
+                    save any input.
+                  </p>
+                </div>
+              </div>
             </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
-      </nav>
-      <!-- End of Footer -->
-</body>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom footer">
+      <div class="container">
+        <div class="row footer-icon-wrapper">
+          <div class="col-lg-12">
+            <a href="https://github.com/mli2950" target="_blank"
+              ><img
+                src="./Assets/Images/github.png"
+                class="footer-icon"
+                alt="Github"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/michael-li-6a156799/"
+              target="_blank"
+            >
+              <img
+                src="Assets/Images/linkedin.png"
+                alt="LinkedIn"
+                class="footer-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Footer -->
+  </body>
 </html>
