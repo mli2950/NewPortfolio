@@ -53,3 +53,17 @@ html {
     }
   }
 
+/* Styling, Z-index, and positioning for my footer */
+.footer-icon {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.footer-icon-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+  
