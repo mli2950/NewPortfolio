@@ -26,7 +26,27 @@ html {
   .bg3 {
     animation-duration:30s;
   }
-  
+
+  .contactContent {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    padding: 4vmin;
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    transform:translate(-50%, -50%);
+    width: 40%;
+    height: 75%;
+    margin-top: -15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .content {
     background-color:rgba(255,255,255,.8);
     border-radius:.25em;
@@ -140,3 +160,30 @@ html {
  margin-left: 50px;
 }
 
+#message {
+  height: 100px;
+}
+
+.form-group {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 18px;
+  font-family:monospace;
+  align-items: right;
+  justify-content: right;
+  display: flex;
+}
+
+#emailContact {
+
+}
+
+input, textarea {
+  width: 300px;
+  margin-left: auto;
+  font-family:monospace;
+}
+
+label {
+  margin-right: 20px;;
+}
