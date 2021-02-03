@@ -103,3 +103,35 @@ html {
   margin-right: -125px;
 }
 
+#email {
+  font-family:monospace;
+  padding-top: 10px;
+  font-size: 17px;
+  margin-left: -30px;
+  font-weight: bold;
+}
+
+#phone {
+  font-family:monospace;
+  padding-top: 10px;
+  font-size: 17px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.card-columns {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  
+}
+
+.card {
+  background-color: #F8F9FA;
+}
+
+.btn {
+ margin-left: 50px;
+
+}
