@@ -112,6 +112,7 @@ html {
   font-size: 17px;
   margin-left: -30px;
   font-weight: bold;
+  color: white;
 }
 
 #phone {
@@ -120,6 +121,7 @@ html {
   font-size: 17px;
   margin-right: 20px;
   font-weight: bold;
+  color: white;
 }
 
 .card-columns {
@@ -136,5 +138,5 @@ html {
 
 .btn {
  margin-left: 50px;
-
 }
+
